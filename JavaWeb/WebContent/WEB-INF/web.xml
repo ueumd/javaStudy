@@ -17,4 +17,9 @@
   	<session-timeout>1</session-timeout>
   </session-config> -->
   
+  <error-page>
+  		<error-code>404</error-code>
+  		<location>/common/error.html</location>
+  </error-page>
+  
 </web-app>
