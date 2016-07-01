@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 public class RequestDemo1 extends HttpServlet {
 	/**
 	 * 1)tomcat服务器接收到浏览器发送的请求数据，然后封装到HttpServetRequest对象
-	 * 2）tomcat服务器调用doGet方法，然后把request对象传入到servlet中。
+	 * 2)tomcat服务器调用doGet方法，然后把request对象传入到servlet中。
 	 */
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
