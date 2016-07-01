@@ -1,4 +1,4 @@
-package gz.itcast.b_request;
+package gz.itcast.request;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Enumeration;

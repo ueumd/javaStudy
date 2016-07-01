@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class MyFirstServlet
  */
 
-@WebServlet("/MyFirstServlet") //加上此句就不用在web.xml里配置了
+@WebServlet("/MyFirstServlet") //Tomcat7.0新特性：支持Servlet3.0注解定义，无需配置web.xml
 public class MyFirstServlet extends HttpServlet{
 	private static final long serialVersionUID = 1L;
 	
