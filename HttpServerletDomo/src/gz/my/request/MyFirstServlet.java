@@ -1,4 +1,4 @@
-package gz.myservlet;
+package gz.my.request;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
