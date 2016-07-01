@@ -1,4 +1,4 @@
-package gz.my.request;
+package myjava.servlet;
 
 import java.io.IOException;
 import java.util.Enumeration;

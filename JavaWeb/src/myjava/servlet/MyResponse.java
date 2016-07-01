@@ -1,4 +1,4 @@
-package gz.my.response;
+package myjava.servlet;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

@@ -1,4 +1,4 @@
-package ga.my.servlet.life;
+package myjava.servlet;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package gz.itcast.request;
+package myjava.servlet;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Enumeration;
