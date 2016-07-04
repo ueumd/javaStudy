@@ -1,8 +1,9 @@
-package myjava.jdbc;
+package myjava.jdbc.eg;
 
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -71,33 +72,16 @@ public class JdbcUtil {
 	/**
 	 * 释放资源的方法
 	 */
-	public static void close(Connection conn,Statement stmt){
-		try {			
-			if(stmt!=null){
-				stmt.close();
-				stmt=null;
-			}
-			if(conn!=null){
-				conn.close();
-				conn=null;		
-			}
-			
-		} catch (SQLException e1) {
-			e1.printStackTrace();
-			throw new RuntimeException(e1);
-		}
-	}
-	
-	public static void close(Connection conn,Statement stmt,ResultSet rs){
+	public static void close(Connection conn,PreparedStatement pstmt,ResultSet rs){
 		try {
 			if(rs!=null){
 				rs.close();
 				rs=null;
 			}
 			
-			if(stmt!=null){
-					stmt.close();
-					stmt=null;
+			if(pstmt!=null){
+				pstmt.close();
+				pstmt=null;
 			}
 			if(conn!=null){
 				conn.close();
