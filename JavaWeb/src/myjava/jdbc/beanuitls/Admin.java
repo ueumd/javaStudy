@@ -10,8 +10,6 @@ public class Admin {
 	private int age;
 	private Date birth;
 	
-	
-	
 	public Date getBirth() {
 		return birth;
 	}
