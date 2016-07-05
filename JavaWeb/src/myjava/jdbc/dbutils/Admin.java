@@ -1,8 +1,11 @@
-package myjava.jdbc.basedao;
+package myjava.jdbc.dbutils;
+
+import java.util.Date;
 
 public class Admin {
+
 	private int id;
-	private String username;
+	private String userName;
 	private String pwd;
 
 	
@@ -18,16 +21,18 @@ public class Admin {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getUsername() {
-		return username;
+	public String getUserName() {
+		return userName;
 	}
-	public void setUsername(String username) {
-		this.username = username;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 	@Override
 	public String toString() {
-		return "Admin [id=" + id + ", username=" + username + ", pwd=" + pwd
+		return "Admin [id=" + id + ", userName=" + userName + ", pwd=" + pwd
 				+ "]";
 	}
+
 	
 }
+
