@@ -35,6 +35,9 @@
    		    
    		     <!-- 注册orderMapper.xml文件-->
    		    <mapper resource="me/mapping/orderMapper.xml"/>
+   		    
+   		    <!--多表查询  -->
+   		    <mapper resource="me/mapping/classMapper.xml"/>
     </mappers>
     
   
