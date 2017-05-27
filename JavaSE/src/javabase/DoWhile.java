@@ -10,6 +10,7 @@ public class DoWhile {
 		 while条件为false一次也不执行,do while会执行一次 
 		 */		
 		
+		
 		do{
 			sum+=a;
 			++a;
